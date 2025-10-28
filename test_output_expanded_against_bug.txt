@@ -1,0 +1,23 @@
+﻿python : E
+At line:1 char:1
++ python -m unittest TestTriangle > test_output_fixed.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:String) [], RemoteExcept 
+   ion
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+======================================================================
+ERROR: TestTriangle (unittest.loader._FailedTest.TestTriangle)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: TestTriangle
+Traceback (most recent call last):
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python313\Lib\unitt
+est\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'TestTriangle'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
